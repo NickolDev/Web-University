@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /* background-image: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; */
+
+    /* forma de atalho */
+    background: url(./assets/Car.png) no-repeat top
+    center/cover;
+}
+body *{
+    font-family: "Inter", serif;
+    color: #ffffff;
+}
+
+#container{
+    width: 360px;
+    /* height: 712px; */
+    border: 1px solid red;
+
+    margin: 56px auto 0px;
+    /* margin: auto;
+    padding-top: 56px;
+
+    padding: 100px;
+    padding-top: 20px;
+    padding-left: 200px; */
+
+}
+#profile{
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img{
+    max-width: 100%;   /* ocupa no máximo a largura do contêiner */
+    height: auto;      /* mantém a proporção da imagem */
+    display: block;    /* elimina espaços extras */
+    margin: 0 auto;    /* centraliza a imagem */
+    border-radius: 100%; /* opcional: deixa a imagem circular estilo avatar */
+}
+
+
+#profile p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+/* botoes */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+
+}
+
+ul li a{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px 24px;
+
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background 0.35, transform 0.2s;
+    width: 100%;
+}
+
+ul li a:hover{
+    background-color: red;
+    color: #ffffff;
+    transform: scale(1.05);
+}

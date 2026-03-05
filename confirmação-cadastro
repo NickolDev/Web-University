@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,3 +11,15 @@
     <p>Obrigado por cadastrar o Animal. Em breve, entraremos em contato.</p>
 </body>
 </html>
+=======
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmação de Cadastro</title>
+  </head>
+  <body>
+    <h1>Cadastro Realizado com Sucesso!</h1>
+    <p>Obrigado por cadastrar o Animal. Em breve, entraremos em contato.</p>
+  </body>
+</html>
+>>>>>>> fbb88fb386be13703edddfbdd12608c796f63217
